@@ -32,7 +32,7 @@
             xrextras-loading
             xrextras-runtime-error>
             <a-assets>
-                <a-asset-item id="sandModel" src="sand-castle.glb"></a-asset-item>
+                <a-asset-item id="barrelModel" src="barrel.obj"></a-asset-item>
             </a-assets>
             <a-camera
                 id="camera"
@@ -48,7 +48,7 @@
                 position="1 4.3 2.5">
             </a-entity>
             <a-light type="ambient" intensity="1"></a-light>
-            <a-entity gltf-model="#sandModel" class="cantap" hold-drag two-finger-spin pinch-scale scale="0.025 0.025 0.025"></a-entity>
+            <a-entity obj-model="#barrelModel" class="cantap" hold-drag two-finger-spin pinch-scale scale="0.025 0.025 0.025"></a-entity>
             <a-entity
                 id="ground"
                 class="cantap"
