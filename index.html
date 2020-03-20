@@ -32,8 +32,7 @@
             xrextras-loading
             xrextras-runtime-error>
             <a-assets>
-                <!-- Credit to Poly by Google for the model: https://poly.google.com/view/5ZMAz7_ucTn -->
-                <a-asset-item id="sandCastleModel" src="sand-castle.glb"></a-asset-item>
+                <a-asset-item id="catModel" src="Cat/cat_fbx"></a-asset-item>
             </a-assets>
             <a-camera
                 id="camera"
@@ -48,8 +47,8 @@
                 intensity: 0.8;"
                 position="1 4.3 2.5">
             </a-entity>
-            <a-light type="ambient" intensity="1"></a-light>
-            <a-entity gltf-model="#sandCastleModel" class="cantap" hold-drag two-finger-spin pinch-scale scale="0.025 0.025 0.025"></a-entity>
+            <a-light type="ambient" intensity="2"></a-light>
+            <a-entity gltf-model="#catModel" class="cantap" hold-drag two-finger-spin pinch-scale scale="0.025 0.025 0.025"></a-entity>
             <a-entity
                 id="ground"
                 class="cantap"
